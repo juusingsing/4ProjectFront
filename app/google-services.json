@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "664817230201",
+    "project_id": "plantpet-2ffb9",
+    "storage_bucket": "plantpet-2ffb9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664817230201:android:eb9e163977904315780fa8",
+        "android_client_info": {
+          "package_name": "com.example.git"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd60osqQKy5z1VJIW2OjlgA0jr4Ur8gT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

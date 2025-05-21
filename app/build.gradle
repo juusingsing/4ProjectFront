@@ -1,5 +1,7 @@
+
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.application) // libs.versions.toml을 사용하는 경우
+    id 'com.google.gms.google-services'    // Firebase용
 }
 
 android {
@@ -34,7 +36,13 @@ dependencies {
     implementation libs.material
     implementation libs.activity
     implementation libs.constraintlayout
+
+    implementation 'com.google.firebase:firebase-messaging:23.4.0'
+    implementation 'com.onesignal:OneSignal:4.8.5'
+
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 }
+
+
